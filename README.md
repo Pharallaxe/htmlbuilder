@@ -87,7 +87,7 @@ let loginForm = form()
   );
 ```
 
-![Fenêtre de connexion](./img/connexion.png)
+![Fenêtre de connexion](./img/fenetre_connexion.png)
 
 ## Création d'un menu
 
@@ -135,7 +135,7 @@ let head = header()
   );
 ```
 
-![Menu](./img/menu.png)
+![Menu](./img/menu_noir.png)
 
 ## Création d'une galerie de cartes
 
@@ -198,7 +198,7 @@ let cardsSection = section()
   );
 ```
 
-![Exemple de cartes](./img/cards.png)
+![Exemple de cartes](./img/cartes.png)
 
 ## Documentation des Méthodes
 
