@@ -1,6 +1,6 @@
 # HTMLBuilder Library
 
-![Illustration de l'auteur](./img/pharallaxe.PNG)
+![Illustration de l'auteur](./img/pharallaxe.png)
 
 La bibliothèque `HTMLBuilder` est un outil JavaScript léger conçu pour faciliter la création et la manipulation dynamiques de contenu HTML. Elle permet aux développeurs de construire des structures HTML complexes en utilisant une syntaxe concise et orientée objet, tout en offrant une gestion fluide des styles CSS et des événements. Il s'agit d'un POC, plus d'un vrai outil !
 
@@ -87,7 +87,7 @@ let loginForm = form()
   );
 ```
 
-![Fenêtre de connexion](./img/connexion.PNG)
+![Fenêtre de connexion](./img/connexion.png)
 
 ## Création d'un menu
 
@@ -135,7 +135,7 @@ let head = header()
   );
 ```
 
-![Menu](./img/menu.PNG)
+![Menu](./img/menu.png)
 
 ## Création d'une galerie de cartes
 
@@ -198,7 +198,7 @@ let cardsSection = section()
   );
 ```
 
-![Exemple de cartes](./img/cards.PNG)
+![Exemple de cartes](./img/cards.png)
 
 ## Documentation des Méthodes
 
