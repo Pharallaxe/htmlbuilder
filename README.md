@@ -4,6 +4,33 @@
 
 La bibliothèque `HTMLBuilder` est un outil JavaScript léger conçu pour faciliter la création et la manipulation dynamiques de contenu HTML. Elle permet aux développeurs de construire des structures HTML complexes en utilisant une syntaxe concise et orientée objet, tout en offrant une gestion fluide des styles CSS et des événements. Il s'agit d'un POC, plus d'un vrai outil !
 
+## Licence
+Ce projet est sous licence [Apache](./LICENSE).
+
+## Contenu
+- [HTMLBuilder Library](#htmlbuilder-library)
+  - [Licence](#licence)
+  - [Contenu](#contenu)
+  - [Fonctionnalités](#fonctionnalités)
+  - [Installation](#installation)
+  - [Utilisation](#utilisation)
+  - [Création d'un formulaire](#création-dun-formulaire)
+  - [Création d'un menu](#création-dun-menu)
+  - [Création d'une galerie de cartes](#création-dune-galerie-de-cartes)
+  - [Documentation des méthodes principales](#documentation-des-méthodes-principales)
+    - [`element(nom_balise)`](#elementnom_balise)
+    - [`attr(attribut, value)`](#attrattribut-value)
+    - [`css(property, value)`](#cssproperty-value)
+    - [`on(eventType, handler)`](#oneventtype-handler)
+    - [`addChild(...elements)`](#addchildelements)
+    - [`build()`](#build)
+    - [`aClass(className)`](#aclassclassname)
+    - [`rClass(className)`](#rclassclassname)
+    - [`tClass(className)`](#tclassclassname)
+    - [`toggle(cssOff, cssOn)`](#togglecssoff-csson)
+    - [`flexCenter()`](#flexcenter)
+  - [Documentation des méthodes de styles](#documentation-des-méthodes-de-styles)
+
 ## Fonctionnalités
 
 - **Construction dynamique d'HTML** : Créer des éléments HTML en utilisant des méthodes chaînées pour une lisibilité et une maintenance améliorées.
@@ -200,7 +227,7 @@ let cardsSection = section()
 
 ![Exemple de cartes](./img/cartes.png)
 
-## Documentation des Méthodes
+## Documentation des méthodes principales
 
 ### `element(nom_balise)`
 
@@ -276,3 +303,6 @@ Ajoute un comportement de bascule pour les styles CSS à chaque clic sur l'élé
 ### `flexCenter()`
 
 Centre l'élélement à l'aide de Flexbox (met en place `display: flex`, `justifyContent: center`, et `alignItems: center`).
+
+## Documentation des méthodes de styles
+...
