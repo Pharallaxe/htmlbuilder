@@ -88,7 +88,6 @@ let loginForm = form().attr("method", "post")
     );
 
 
-
 // CREATION DU FOOTER
 let footerElement = footer().bg("#333").cl("#fff").ta("center").pd("10px 0").addChild(
     p().html("&copy; 2024 MySite. All rights reserved."));

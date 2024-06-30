@@ -1,5 +1,5 @@
 /**  UTILITAIRES POUR CREATION DE HTML
-**************************************/
+ **************************************/
 
 // Fonction pour créer une balise html.
 function el(nom_balise) {
@@ -131,8 +131,12 @@ class HTMLBuilder {
     toggle(cssOff, cssOn) {
         let test = false;
         this.el.addEventListener("click", () => {
-            if (test) cssOff.forEach(eachCss => { this.css(eachCss[0], eachCss[1]); })
-            else cssOn.forEach(eachCss => { this.css(eachCss[0], eachCss[1]); })
+            if (test) cssOff.forEach(eachCss => {
+                this.css(eachCss[0], eachCss[1]);
+            })
+            else cssOn.forEach(eachCss => {
+                this.css(eachCss[0], eachCss[1]);
+            })
             test = !test;
         })
         return this;
@@ -185,7 +189,6 @@ const balises = [
     "pre", "q", "s", "samp", "section", "select", "small", "span",
     "strong", "sub", "sup", "textarea", "time", "u", "ul", "var"
 ];
-
 
 
 // Création dynamique des fonctions pour chaque balise HTML
